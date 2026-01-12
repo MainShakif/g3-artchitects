@@ -3,3 +3,45 @@
 .font_work_sans {
   font-family: "Work Sans", sans-serif;
 }
+/* Shared styles */
+.display_flex {
+  display: flex;
+}
+.dark_1 {
+  color: #131313;
+}
+.dark_2 {
+  color: #424242;
+}
+.dark_3 {
+  color: #727272;
+}
+.bg_light {
+  background-color: rgba(255, 144, 14, 0.1); /* header bg color  */
+}
+
+/* navbar styles */
+.nav_bar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav_bar {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+#brand h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.nav_item .nav_link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+}
